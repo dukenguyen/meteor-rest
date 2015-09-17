@@ -1,0 +1,20 @@
+<head>
+  <title>rest</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+
+  <h2>{{> redisTest}}</h2>
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="redisTest">
+  <p>The value is {{value}} </p>
+</template>
